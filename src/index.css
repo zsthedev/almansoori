@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: primary;
+  src: url(/public/fonts/primary.ttf);
+}
+
+@font-face {
+  font-family: helvetica-light;
+  src: url(/public/fonts/helvetica/HelveticaNeueLight.otf);
+}
+
+@font-face {
+  font-family: helvetica-regular;
+  src: url(/public/fonts/helvetica/HelveticaNeueRoman.otf);
+}
+
+@font-face {
+  font-family: helvetica-medium;
+  src: url(/public/fonts/helvetica/HelveticaNeueMedium.otf);
+}
+
+@font-face {
+  font-family: helvetica-bold;
+  src: url(/public/fonts/helvetica/HelveticaNeueBold.otf);
+}
+
+@theme {
+  --color-brand-primary-50: #fefcec;
+  --color-brand-primary-100: #fdf4c8;
+  --color-brand-primary-200: #fae88d;
+  --color-brand-primary-300: #f7d54c;
+  --color-brand-primary: #f5c32a;
+  --color-brand-primary-500: #efa411;
+  --color-brand-primary-600: #d37e0c;
+  --color-brand-primary-700: #af5a0e;
+  --color-brand-primary-800: #8e4512;
+  --color-brand-primary-900: #753a12;
+  --color-brand-primary-950: #431d05;
+
+  --font-primary: primary;
+  --font-secondary: helvetica-light;
+  --font-secondary-500: helvetica-regular;
+  --font-secondary-600: helvetica-medium;
+  --font-secondary-700: helvetica-bold;
+}
