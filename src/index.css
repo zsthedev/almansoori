@@ -44,3 +44,28 @@
   --font-secondary-600: helvetica-medium;
   --font-secondary-700: helvetica-bold;
 }
+
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: "helvetica-regular";
+}
+
+@layer utilities {
+  .section-padding {
+    @apply px-4 md:px-9 py-4;
+  }
+
+  .primary-btn {
+    @apply bg-brand-primary-300/80 px-4 py-2 rounded-full hover:bg-brand-primary-200! duration-200 ease-in;
+
+    span {
+      @apply text-brand-primary-950 font-medium;
+    }
+  }
+
+  .primary-overlay {
+    @apply bg-brand-primary-300/80;
+  }
+}
