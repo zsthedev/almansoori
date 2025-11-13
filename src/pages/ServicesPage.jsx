@@ -1,29 +1,27 @@
 import React from "react";
 import PageHeader from "../components/PageHeader";
-import AboutSection from "../components/AboutSection";
-import ProcessSection from "../components/ProcessSection";
+import Services from "../components/Services";
 import HeroSection from "../components/HeroSection";
 import TestimonialsSection from "../components/TestimonialSection";
-import TeamSection from "../components/TeamSection";
 
-const About = () => {
+const ServicesPage = () => {
   return (
     <section className="w-full min-h-screen">
       <PageHeader
-        title="About Us"
+        title="Services"
         breadcrumb="Home"
         breadcrumbLink="/about"
         backgroundImage="/images/about.png"
         backgroundColor="bg-brand-primary-400"
       />
 
-      <AboutSection />
-      <ProcessSection />
-      <HeroSection />
-      <TeamSection />
-      <TestimonialsSection />
+      <div className="pt-35">
+        <Services />
+        <HeroSection />
+        <TestimonialsSection />
+      </div>
     </section>
   );
 };
 
-export default About;
+export default ServicesPage;

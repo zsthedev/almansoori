@@ -5,13 +5,14 @@ import Header from "./components/Header";
 import Lenis from "lenis";
 import Footer from "./components/Footer";
 import About from "./pages/About";
+import ServicesPage from "./pages/ServicesPage";
+import ContactPage from "./pages/ContactPage";
 const App = () => {
   const lenis = new Lenis({
     autoRaf: true,
   });
 
-  lenis.on("scroll", (e) => {
-    console.log(e);
+  lenis.on("scroll", () => {
   });
   return (
     <Router>
@@ -19,6 +20,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<About />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />
     </Router>

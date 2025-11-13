@@ -11,7 +11,7 @@ const PageHeader = ({
     <div className="w-full h-[350px] md:h-[400px] bg-brand-primary flex items-center justify-center relative px-4">
       <div className="text-center max-w-4xl mx-auto">
         {/* Title */}
-        <h2 className="section-heading !font-secondary-600 !uppercase mb-4">
+        <h2 className="section-heading font-secondary-600! uppercase mb-4!">
           {title}
         </h2>
 
@@ -31,7 +31,7 @@ const PageHeader = ({
       </div>
 
       {/* Background Image */}
-      <div className="w-[90%] md:w-[85%] lg:w-[80%] h-[200px] md:h-[250px] absolute -bottom-20 md:-bottom-28 lg:-bottom-32 rounded-xl md:rounded-2xl overflow-hidden shadow-2xl">
+      <div className="w-[90%] md:w-[85%] lg:w-[80%] h-60 md:h-[250px] absolute -bottom-20 md:-bottom-28 lg:-bottom-32 rounded-xl md:rounded-2xl overflow-hidden shadow-2xl">
         <img
           src={backgroundImage}
           alt={title}

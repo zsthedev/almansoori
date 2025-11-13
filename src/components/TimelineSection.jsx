@@ -36,7 +36,7 @@ const TimelineSection = () => {
 
   return (
     <section className="section-padding bg-white">
-      <div className="max-w-7xl mx-auto">
+      <div className=" mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="section-heading mb-4">our journey</h2>
