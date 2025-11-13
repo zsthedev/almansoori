@@ -5,7 +5,7 @@ import { IoArrowForwardOutline } from "react-icons/io5";
 const Header = () => {
   const location = useLocation();
   return (
-    <header className="w-full flex items-center section-padding fixed top-0 left-0 z-10 bg-brand-primary justify-between lg:gap-4">
+    <header className="w-full flex items-center section-padding py-2! fixed top-0 left-0 z-20 bg-brand-primary justify-between lg:gap-4">
       <div className="flex items-center gap-2 flex-1">
         <img src="/images/logo.svg" alt="" />
         <span className="font-primary text-brand-primary-950 text-lg leading-5 mt-2">

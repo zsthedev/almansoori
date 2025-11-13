@@ -54,7 +54,7 @@ body {
 
 @layer utilities {
   .section-padding {
-    @apply px-4 md:px-9 py-4;
+    @apply px-4 md:px-9 py-9;
   }
 
   .primary-btn {
@@ -67,5 +67,9 @@ body {
 
   .primary-overlay {
     @apply bg-brand-primary-300/80;
+  }
+
+  .section-heading {
+    @apply font-primary text-3xl md:text-5xl 2xl:text-6xl leading-[135%] text-brand-primary-950;
   }
 }
